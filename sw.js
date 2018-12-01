@@ -33,6 +33,21 @@ self.addEventListener('install', function(e) {
   )
 })
 
+
+self.addEventListener('fetch', function(e) {
+
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      if (response != null) {
+        console.log('Using cache for:', e.request.url)
+        return response
+      }
+      console.log('Fallback to fetch:', e.request.url)
+      return fetch(e.request.url)
+    })
+  )
+})
+
 /*
 
 
