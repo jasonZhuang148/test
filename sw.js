@@ -64,7 +64,7 @@ self.addEventListener('fetch', function(e) {
     })
   )
 })
-        */
+        
 self.addEventListener('fetch', function(event) {
   // Calling event.respondWith means we're in charge
   // of providing the response. We pass in a promise
@@ -79,4 +79,4 @@ self.addEventListener('fetch', function(event) {
       return response || fetch(event.request);
     })
   );
-});
+});      */
