@@ -6,7 +6,7 @@ var cacheList = [
   '/',
   "index.html",
   "main.css",
-  "e.png",
+ /* "e.png",
   "assets/icons/icon-48x48.png",
   "assets/icons/icon-72x72.png",
   "assets/icons/icon-96x96.png",
@@ -15,7 +15,7 @@ var cacheList = [
   "assets/icons/icon-152x152.png",
   "assets/icons/icon-192x192.png",
   "assets/icons/icon-512x512.png",
-  "pwa-fonts.png"
+  "pwa-fonts.png"    */
 ]
 
 
