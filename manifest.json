@@ -1,4 +1,5 @@
-"name": "Todo PWA Demo",
+{
+  "name": "Todo PWA Demo",
   "short_name": "Todo",
   "theme_color": "#1976d2",
   "background_color": "#fafafa",
@@ -47,3 +48,4 @@
       "type": "image/png"
     }
   ]
+}
